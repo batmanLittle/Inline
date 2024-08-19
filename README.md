@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Inline — это веб-приложение на React, которое позволяет пользователям просматривать карточки продуктов с возможностью взаимодействия через слайдер. Приложение поддерживает адаптивный дизайн и учитывает методологию БЭМ (Блок, Элемент, Модификатор) для улучшения читаемости и переиспользования стилей.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ссылки
 
-## Available Scripts
+- [Ссылка на проект](https://github.com/batmanLittle/Inline) - ссылка на репозиторий с кодом проекта.
+- [Ссылка на макет](https://www.figma.com/file/ваш_макет_link) - ссылка на макет проекта в Figma (замените на актуальную ссылку на ваш макет).
 
-In the project directory, you can run:
+## Требования
 
-### `npm start`
+Обязательные условия:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Продуманная и выполненная декомпозиция блоков с возможностью их переиспользования.
+2. Применение методологии БЭМ по международному образцу: `block__element--modifier`. Имена классов должны быть понятны и читабельны.
+3. Написанная в `README.md` инструкция по развертыванию проекта.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Требования к функционалу:
 
-### `npm test`
+1. Реализация рабочих табов (ОПИСАНИЕ, ОТЗЫВЫ, ОТКУДА?) с помощью JavaScript.
+2. Карточки продуктов помещены в слайдер ([Swiper](https://swiperjs.com/)). При сужении экрана слайдер должен разблокироваться и карточки должны пролистываться. Если карточки помещаются на экран (с учетом отступов), слайдер неактивен.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Установка и запуск
 
-### `npm run build`
+Для развертывания проекта выполните следующие шаги:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Клонируйте репозиторий: git clone git@github.com:batmanLittle/Inline.git
+2. Перейдите в папку с проектом: cd Inline
+3. Установите зависимости: npm install
+   либо: yarn install
+4. Запустите проект: npm start
+   либо: yarn start
+5. Откройте браузер и перейдите по адресу [http://localhost:3000](http://localhost:3000), чтобы увидеть ваше приложение в действии.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Используемые технологии
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://reactjs.org/) - библиотека для создания пользовательских интерфейсов
+- [Swiper](https://swiperjs.com/) - для создания слайдеров
+- [SCSS](https://sass-lang.com/) - для обработки стилей
+- HTML, CSS, JavaScript

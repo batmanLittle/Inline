@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1106px;
+
+  width: 100%;
+  gap: 54px;
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    gap: 49px;
+  }
+}

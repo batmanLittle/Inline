@@ -1,0 +1,19 @@
+.info-text {
+  display: flex;
+}
+.info-text__item {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  .info-text__item {
+    text-align: justify;
+  }
+
+  .bold {
+    font-family: MontserratMedium;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

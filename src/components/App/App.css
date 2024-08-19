@@ -1,0 +1,12 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  --white-color: rgba(255, 255, 255, 1);
+  --grey-color: rgba(178, 178, 178, 0.5);
+  --green-color: rgba(66, 159, 58, 1);
+  --dark-color: rgba(68, 68, 68, 1);
+  --black-color: (66, 65, 65, 1);
+  --light-gray-color: rgba(137, 129, 127, 1);
+}

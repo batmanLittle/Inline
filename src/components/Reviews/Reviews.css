@@ -1,0 +1,34 @@
+.reviews {
+  width: 100%;
+  padding: 0px 20px 16px;
+  display: flex;
+  justify-content: center;
+}
+.reviews__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1066px;
+  gap: 33px;
+}
+
+.reviews__title {
+  max-width: 523px;
+  font-size: 14px;
+}
+
+.reviews__button {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 500px) {
+  .reviews__container {
+    align-items: center;
+    justify-content: center;
+  }
+  .reviews__title {
+    max-width: 100%;
+    text-align: justify;
+  }
+}

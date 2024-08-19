@@ -1,0 +1,42 @@
+.table {
+  max-width: 45.19%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.table__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.table__item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid var(--grey-color);
+}
+
+@media screen and (max-width: 800px) {
+  .table {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .table {
+    gap: 15px;
+  }
+
+  .table__title {
+    font-family: MontserratSemiBold;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .table__item {
+    gap: 5px;
+  }
+}

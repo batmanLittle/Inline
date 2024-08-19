@@ -1,0 +1,37 @@
+.product-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 16px;
+}
+
+.product-list__container {
+  max-width: 1066px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product-list__title {
+  font-size: 22px;
+}
+
+.product-list__cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 22px;
+}
+
+@media screen and (max-width: 800px) {
+  .product-list {
+    padding: 0px 0px 16px 18px;
+  }
+  .product-list__container {
+    gap: 25px;
+  }
+
+  .product-list__title {
+    font-size: 20px;
+  }
+}
