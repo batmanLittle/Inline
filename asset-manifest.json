@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Inline/static/css/main.a940aa6d.css",
+    "main.js": "/Inline/static/js/main.f346ee8a.js",
+    "static/js/453.63d6fb84.chunk.js": "/Inline/static/js/453.63d6fb84.chunk.js",
+    "static/media/eggs.png": "/Inline/static/media/eggs.5df4ed90cb9f084d5b95.png",
+    "static/media/bread.png": "/Inline/static/media/bread.5728494499f3d7474713.png",
+    "static/media/butter.png": "/Inline/static/media/butter.10f8b8cdca9fabcf1a0b.png",
+    "static/media/milk.png": "/Inline/static/media/milk.9e0d85ae279297a6ed7a.png",
+    "static/media/tomato-supplier.png": "/Inline/static/media/tomato-supplier.00d6d8f83643fe07e49d.png",
+    "static/media/Montserrat-Regular.ttf": "/Inline/static/media/Montserrat-Regular.2a2d37bf7680d86811db.ttf",
+    "static/media/Montserrat-Bold.ttf": "/Inline/static/media/Montserrat-Bold.0915f0a8c3367a6d05ec.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/Inline/static/media/Montserrat-SemiBold.2f7a846126c7d5ee9163.ttf",
+    "static/media/Montserrat-Medium.ttf": "/Inline/static/media/Montserrat-Medium.647f0e61af3a76a138c3.ttf",
+    "static/media/rating.svg": "/Inline/static/media/rating.a3d9dcee108827b1ffea28b0884f2d33.svg",
+    "static/media/basket-mobile.svg": "/Inline/static/media/basket-mobile.bfe0ff068070c8a02851fe08aff9b020.svg",
+    "static/media/basket.svg": "/Inline/static/media/basket.108898963512d487872026439242f584.svg",
+    "index.html": "/Inline/index.html",
+    "static/media/like.svg": "/Inline/static/media/like.d713a5be7c32cba4e08a693784826474.svg",
+    "static/media/plus.svg": "/Inline/static/media/plus.a4478329c9f4e9d35c031d9fd985b0bc.svg",
+    "main.a940aa6d.css.map": "/Inline/static/css/main.a940aa6d.css.map",
+    "main.f346ee8a.js.map": "/Inline/static/js/main.f346ee8a.js.map",
+    "453.63d6fb84.chunk.js.map": "/Inline/static/js/453.63d6fb84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a940aa6d.css",
+    "static/js/main.f346ee8a.js"
+  ]
+}
